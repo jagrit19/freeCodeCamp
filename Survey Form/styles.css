@@ -1,0 +1,76 @@
+label {
+	display: block;
+	color: white;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Times New Roman', sans-serif;
+	background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#title {
+	text-align: center;
+	color: white;
+	margin-top: 50px;
+}
+#description {
+	text-align: center;
+	color: white;
+	font-style: italic;
+	font-size: 20px;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#form {
+	margin: 0px auto;
+	max-width: 600px;
+	background-color: rgba(0, 0, 77,0.85);
+	border-radius: 5px;
+	padding: 40px 40px 40px 25px;
+}
+#name, #email, #number, #dropdown {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 30px;
+	border-radius: 5px;
+}
+textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+[placeholder] {
+	padding-left: 10px;
+}
+#dropdown option {
+	font-size: 20px;
+	font-weight: 100;
+}
+#choice-3, #box-5 {
+	margin-bottom: 20px;
+}
+#submit {
+	width: 100%;
+	background-color: green;
+	height: 45px;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+}
+span {
+	font-style: italic;
+	font-size: 0.9em;
+}
